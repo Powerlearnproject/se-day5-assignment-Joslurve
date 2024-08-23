@@ -1,0 +1,27 @@
+skintherapyabj@Skins-iMac ~ % echo "# se-day5-assignment-Joslurve" >> README.md
+skintherapyabj@Skins-iMac ~ % git init
+Reinitialized existing Git repository in /Users/skintherapyabj/.git/
+skintherapyabj@Skins-iMac ~ % git add README.md
+skintherapyabj@Skins-iMac ~ % git commit -m "first commit"
+[main 52e6a91] first commit
+ 1 file changed, 1 insertion(+)
+skintherapyabj@Skins-iMac ~ % git branch -M main
+skintherapyabj@Skins-iMac ~ % git remote add origin https://github.com/Powerlearnproject/se-day5-assignment-Joslurve.git
+fatal: remote origin already exists.
+skintherapyabj@Skins-iMac ~ % git push -u origin main
+Username for 'https://github.com': joshuajaye
+Password for 'https://joshuajaye@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/Powerlearnproject/se-assignment-day-3-environment-setup-Joslurve.git/'
+
+skintherapyabj@Skins-iMac ~ % git remote add origin https://github.com/Powerlearnproject/se-day5-assignment-Joslurve.git
+fatal: remote origin already exists.
+skintherapyabj@Skins-iMac ~ % git branch -M main
+skintherapyabj@Skins-iMac ~ % git push -u origin main
+Username for 'https://github.com': joshuajaye
+Password for 'https://joshuajaye@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/Powerlearnproject/se-assignment-day-3-environment-setup-Joslurve.git/'
+skintherapyabj@Skins-iMac ~ % 
